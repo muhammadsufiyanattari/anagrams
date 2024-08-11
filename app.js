@@ -1,10 +1,10 @@
 
 
 function myFunction(words) {
-    const arrWord = {};
+    let arrWord = {};
 
     words.forEach(word => {
-        const sortWord = word.split('').sort().join('');
+        let sortWord = word.split('').sort().join('');
         if (arrWord[sortWord]) {
             arrWord[sortWord].push(word);
         } else {
@@ -15,6 +15,6 @@ function myFunction(words) {
     return Object.values(arrWord);
 }
 
-const a = ["bat", "tap", "cat", "tab", "pat"];
-const b = myFunction(a);
+let a = ["bat", "tap", "cat", "tab", "pat"];
+let b = myFunction(a);
 console.log(b);
