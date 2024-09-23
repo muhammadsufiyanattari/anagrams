@@ -15,6 +15,8 @@ function myFunction(words) {
     return Object.values(arrWord);
 }
 
-let a = ["bat", "tap", "cat", "tab", "pat"];
+let a = ["bat", "tap", "cat", "tab", "pat","back",'kacb'];
 let b = myFunction(a);
 console.log(b);
+
+// question has hafe an answer
